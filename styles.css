@@ -87,6 +87,9 @@ font-size: 14px;
   font-weight: 700;
   font-stretch:wider;
 }
+.button:hover{
+  background-color: hsl(159, 34%, 18%);
+}
 
 .price{
   display: flex;
