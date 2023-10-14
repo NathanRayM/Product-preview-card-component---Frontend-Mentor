@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  /*primary colors*/
+--Darkcyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+/*secondary colors*/
+--Verydarkblue: hsl(212, 21%, 14%);
+--Darkgrayishblue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+}
+
+
+body{
+font-size: 14px;
+}
+
+.main-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100dvh;
+  background-color: var(--Cream);
+}
+
+.main-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 450px;
+  width: 600px;
+  background-color: var(--White);
+  border-radius: 10px;
+}
+
+.left-box{
+  display: flex;
+  justify-content: center;
+  background-image: url(images/image-product-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
+.right-box{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+ /*border: 2px solid yellow;*/
+ margin-left: 11%;
+ margin-right: 11%;
+ 
+}
+.title{
+  font-family: Montserrat;
+  color: var(--Darkgrayishblue);
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+}
+.heading{
+  font-family: Fraunces;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+.description{
+  color: var(--Darkgrayishblue);
+  font-family: Montserrat;
+  line-height: 1.4rem;
+}
+.button{
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  background-color: var(--Darkcyan);
+  border-radius: 8px;
+  color: var(--White);
+  font-family: Montserrat;
+  font-weight: 700;
+  font-stretch:wider;
+}
+
+.price{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--Darkgrayishblue);
+ 
+}
+
+.price-span{
+  font-family: Fraunces;
+  font-size: 2rem;
+  color: var(--Darkcyan);
+ }
+
+ .price-span-two{
+  text-decoration: line-through;
+  font-family: Montserrat;
+  font-size: 0.8rem;
+ }
+
+
+ @media (max-width: 605px){
+  .main-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 614px;
+    width: 343px;
+    background-color: var(--White);
+    border-radius: 10px;
+  }
+
+  .left-box{
+   background-image: url(images/image-product-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 240px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+  }
+  .right-box{
+    margin-top: -75px;
+    gap: 15px;
+    margin-left: 7%;
+    margin-right: 7%;
+   }
+ }
