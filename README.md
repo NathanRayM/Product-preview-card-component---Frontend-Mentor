@@ -1,11 +1,11 @@
-![Product preview card component]()
+![Product preview card component](https://github.com/NathanRayM/Product-preview-card-component-Frontend-Mentor/blob/main/Screen%20Shot%202023-10-13%20at%2010.15.53%20PM.png)
 
 <h1 align="center">Product preview card component</h1>
 
 <div align="center">
 
-[Live]()
-| [Solution]()
+[Live](https://nathanraym.github.io/Product-preview-card-component-Frontend-Mentor/)
+| [Solution](https://github.com/NathanRayM/Product-preview-card-component-Frontend-Mentor.git)
 | [Challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 
 Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/)
@@ -14,7 +14,7 @@ Solution for a challenge from [frontendmentor.io](https://www.frontendmentor.io/
 
 ## About The Project
 
-This challenge is perfect if you're just getting started. The shift between the layouts will be a nice test if you're new to building responsive projects.
+This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.
 
 ## Built with
 
